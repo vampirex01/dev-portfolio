@@ -35,6 +35,12 @@
   line-height: 30px;
 }
 
+.common-h2 {
+  font-size: 35px;
+  font-weight: bold;
+  color: #181818;
+}
+
 /* Personal Items */
 
 header {
@@ -104,4 +110,44 @@ nav .nav_itm {
 #hero .hero-img img {
   max-width: 584px;
   vertical-align: middle;
+}
+
+#about {
+  padding-top: 130px;
+}
+
+#about .about-container {
+  width: 71%;
+  max-width: 1140px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #fff8f3;
+  padding: 131px 156px;
+}
+
+#about .about-container .about-info h2 {
+  margin-bottom: 30px;
+}
+
+#about .about-container .about-info p {
+  margin-bottom: 30px;
+  justify-content: center;
+}
+
+#about .about-container .about-card {
+  display: flex;
+  justify-content: space-around;
+}
+
+.about-card p {
+  color: #757575;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.about-card h4 {
+  color: #474747;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 30px;
 }
