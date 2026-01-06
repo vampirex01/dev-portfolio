@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.font-open-sans {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+/* Shared items */
+
+.logo h2 {
+  font-size: 45;
+  font-weight: 800;
+}
+
+.org_color {
+  color: #fd6e0a;
+}
+
+.btn {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 18px 36px;
+  background-color: #fd6e0a;
+  border: none;
+  border-radius: 5px;
+}
+
+/* Personal Items */
+
+header {
+  background-color: #fff8f3;
+  padding-top: 51px;
+}
+
+nav {
+  width: 71%;
+  max-width: 1140px;
+  display: flex;
+  justify-content: space-between;
+  /* margin-top: 56px; */
+  margin: 0 auto;
+  align-items: center;
+}
+
+nav .nav_itm {
+  display: flex;
+  list-style: none;
+  gap: 51px;
+  align-items: center;
+}
+
+.nav_itm a {
+  text-decoration: none;
+  color: #474747;
+  font-size: 20;
+}
+
+.nav_itm button {
+  border: 1px solid #000000;
+  box-shadow: 0 5px 4px #000000;
+}
