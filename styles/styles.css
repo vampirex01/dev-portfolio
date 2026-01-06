@@ -29,11 +29,20 @@
   border-radius: 5px;
 }
 
+.cmn_p {
+  font-size: 18;
+  color: #757575;
+  line-height: 30px;
+}
+
 /* Personal Items */
 
 header {
   background-color: #fff8f3;
   padding-top: 51px;
+  background-position: top left, bottom right;
+  background-image: url(../images/developer.png), url(../images/header_bg.png);
+  background-repeat: no-repeat;
 }
 
 nav {
@@ -59,7 +68,40 @@ nav .nav_itm {
   font-size: 20;
 }
 
-.nav_itm button {
-  border: 1px solid #000000;
-  box-shadow: 0 5px 4px #000000;
+#hero {
+  margin: 46px 38px 0 230px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#hero .hero-inf {
+  max-width: 585px;
+}
+
+#hero .hero-inf h2 {
+  font-size: 45;
+  font-weight: 600;
+  color: #474747;
+  margin-bottom: 5px;
+}
+
+#hero .hero-inf h1 {
+  font-size: 85;
+  font-weight: bold;
+  color: #181818;
+  margin-bottom: 20px;
+}
+
+#hero .hero-inf p {
+  margin-bottom: 30px;
+}
+
+#hero .hero-inf button {
+  margin-right: 30px;
+}
+
+#hero .hero-img img {
+  max-width: 584px;
+  vertical-align: middle;
 }
