@@ -29,6 +29,16 @@
   border-radius: 5px;
 }
 
+.btn_2 {
+  color: #fd6e0a;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 18px 36px;
+  background-color: #ffffff;
+  border: 2px solid #fd6e0a;
+  border-radius: 5px;
+}
+
 .cmn_p {
   font-size: 18;
   color: #757575;
@@ -150,4 +160,63 @@ nav .nav_itm {
   font-size: 20px;
   font-weight: bold;
   line-height: 30px;
+}
+
+/* CSS for Skills part */
+
+#skills {
+  padding-top: 130px;
+}
+
+.skills-container {
+  width: 71%;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.skill-header h2 {
+  font-size: 35;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.skill-header p {
+  max-width: 827px;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+#skills .cards-container {
+  display: flex;
+  justify-content: space-around;
+  gap: 24px;
+  margin: 0 auto;
+}
+
+.cards-container .card-list {
+  padding: 30px;
+  max-width: 267px;
+  /* border: 1px solid orangered; */
+  box-shadow: 0 6px 50px 0 #00000027;
+  align-items: left;
+}
+
+.card-list img {
+  max-width: 44;
+  margin-bottom: 30px;
+}
+
+.card-list h3 {
+  font-size: 20px;
+  color: #181818;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.card-list p {
+  color: #757575;
+  font-size: 16px;
+  line-height: 28px;
 }
