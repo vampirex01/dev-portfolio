@@ -122,7 +122,9 @@ nav .nav_itm {
   vertical-align: middle;
 }
 
-#about {
+#about,
+#skills,
+#resume {
   padding-top: 130px;
 }
 
@@ -163,10 +165,6 @@ nav .nav_itm {
 }
 
 /* CSS for Skills part */
-
-#skills {
-  padding-top: 130px;
-}
 
 .skills-container {
   width: 71%;
@@ -219,4 +217,63 @@ nav .nav_itm {
   color: #757575;
   font-size: 16px;
   line-height: 28px;
+}
+
+/* Resume part  */
+
+#resume .section-heading h1 {
+  font-size: 35;
+  font-weight: bold;
+  color: #181818;
+  text-align: center;
+}
+
+#resume .section-container {
+  display: flex;
+  padding-top: 113px;
+  width: 71%;
+  max-width: 1140px;
+  margin: 0 auto;
+  gap: 24px;
+}
+
+.section-container .resume-card {
+  max-width: 511px;
+}
+
+.section-container .section-title {
+  font-size: 30px;
+  font-weight: bold;
+  color: #474747;
+  margin-bottom: 30px;
+}
+
+.section-container .card-title {
+  font-size: 25px;
+  font-weight: bold;
+  color: #474747;
+  margin-bottom: 10px;
+}
+
+.section-container .card-info {
+  font-size: 20px;
+  font-weight: 600;
+  color: #757575;
+  margin-bottom: 20px;
+}
+
+.section-container .card-text {
+  color: #757575;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.section-container hr {
+  margin: 30px 0;
+  color: #d1d1d1;
+}
+
+#resume .resume-btn {
+  padding-top: 50px;
+  text-align: center;
 }
