@@ -56,7 +56,7 @@
 header {
   background-color: #fff8f3;
   padding-top: 51px;
-  background-position: top left, bottom right;
+  background-position: 30px 28px, bottom right;
   background-image: url(../images/developer.png), url(../images/header_bg.png);
   background-repeat: no-repeat;
 }
