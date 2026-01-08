@@ -277,3 +277,53 @@ nav .nav_itm {
   padding-top: 50px;
   text-align: center;
 }
+
+/* footer part  */
+
+footer {
+  margin-top: 113px;
+  background-color: #fff8f3;
+  padding: 130px 0;
+}
+
+footer .footer-container {
+  width: 71%;
+  max-width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  gap: 117px;
+}
+
+.footer-container h2 {
+  font-size: 35px;
+  font-weight: bold;
+  color: #181818;
+  margin-bottom: 20px;
+}
+
+.footer-container .f-social {
+  max-width: 562px;
+}
+
+.footer-container .f-social p {
+  font-size: 16px;
+  color: #474747;
+  line-height: 28px;
+  margin-bottom: 30px;
+}
+
+.footer-container .social-icon a {
+  margin-right: 24px;
+}
+
+.footer-container input[type="text"],
+.footer-container input[type="email"],
+.footer-container form textarea {
+  width: 461px;
+  padding: 18px 30px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ffffff;
+  margin-bottom: 24px;
+  color: #757575;
+}
